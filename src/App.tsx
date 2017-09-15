@@ -39,7 +39,7 @@ class App extends React.Component<IHomePageProps> {
     render() {
         return (
             <div>
-                ...
+                Test...
             </div>
         );
     }
@@ -51,10 +51,10 @@ const mapStateToProps = (state: any, ownProps: IHomePageOwnProps): IHomePageStor
 
 // This works
 // const mapDispatchToProps = (dispatch: any, ownProps: IHomePageOwnProps): IHomePageDispatchProps => ({
-//      getAllCityInformation: dispatch(getCityInformation())
+//      getAllCityInformation: () => dispatch(getCityInformation())
 //  });
 
-// This doesn't
+//This doesn't
 const mapDispatchToProps = {
     getCityInformation
 };
